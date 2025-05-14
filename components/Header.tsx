@@ -17,7 +17,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-red-600 bg-clip-text text-transparent">
-              EduHope
+              A RAY OF HOPE
             </span>
           </Link>
           
@@ -27,6 +27,7 @@ const Header = () => {
             <NavLink href="/about">About Us</NavLink>
             <NavLink href="/testimonials">Testimonials</NavLink>
             <NavLink href="/gallery">Gallery</NavLink>
+            <NavLink href="/videos">Videos</NavLink>
             <NavLink href="/contact">Contact</NavLink>
           </nav>
           
@@ -48,6 +49,7 @@ const Header = () => {
           <MobileNavLink href="/about" onClick={toggleMenu}>About Us</MobileNavLink>
           <MobileNavLink href="/testimonials" onClick={toggleMenu}>Testimonials</MobileNavLink>
           <MobileNavLink href="/gallery" onClick={toggleMenu}>Gallery</MobileNavLink>
+          <MobileNavLink href="/videos" onClick={toggleMenu}>Videos</MobileNavLink>
           <MobileNavLink href="/contact" onClick={toggleMenu}>Contact</MobileNavLink>
         </div>
       </div>

@@ -1,11 +1,11 @@
-const AboutHero = () => {
+const VideosHero = () => {
   return (
-    <section className="relative bg-blue-700 text-white py-20">
+    <section className="relative bg-red-600 text-white py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Videos</h1>
           <p className="text-lg md:text-xl opacity-90">
-            Dedicated to transforming lives through the power of education since 2008.
+            Videos from our programs and the communities we serve around the world.
           </p>
         </div>
       </div>
@@ -15,4 +15,4 @@ const AboutHero = () => {
   );
 };
 
-export default AboutHero;
+export default VideosHero;

@@ -7,15 +7,15 @@ const Stats = () => {
             Our Impact
           </h2>
           <p className="text-lg opacity-90">
-            Through dedication and collaboration, we've made a real difference in the lives of many.
+            Every big change in the world starts with one person.
           </p>
         </div>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          <StatItem number="15+" text="Years of Service" />
-          <StatItem number="127" text="Schools Supported" />
-          <StatItem number="2,500+" text="Teachers Trained" />
-          <StatItem number="50,000+" text="Children Educated" />
+          <StatItem number="10" text="States" />
+          <StatItem number="35" text="Projects" />
+          <StatItem number="65" text="Villages & Slums" />
+          <StatItem number="20K+" text="Happy Faces" />
         </div>
       </div>
     </section>

@@ -10,15 +10,16 @@ const Mission = () => {
               Our Mission
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              At EduHope, we're committed to breaking the cycle of poverty through education. We work to provide educational resources, teacher training, and infrastructure support to underserved communities globally.
+              As we know many children’s are not able to get Good quality Education due to lack of money or family problems. so we started organisation  A RAY OF HOPE   which helps needy & poor children’s   with world class education. To provide Advanced Technical Education like C , C++ , Java , Python , Database , Html ,CSS , Digital Marketing , Artificial Intelligence Robotics etc to Underprivileged and Poor Children.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
               By partnering with local organizations and governments, we create sustainable educational ecosystems that empower children and communities to build better futures.
             </p>
             <div className="flex flex-wrap gap-4">
-              <MissionStat number="15+" text="Years of Impact" />
-              <MissionStat number="50+" text="Communities Served" />
-              <MissionStat number="10k+" text="Students Empowered" />
+              <MissionStat number="10" text="States" />
+              <MissionStat number="35" text="Projects" />
+              <MissionStat number="65" text="Villages & Slums" />
+              <MissionStat number="20K+" text="Happy Faces" />
             </div>
           </div>
           <div className="order-1 md:order-2 relative h-[400px] rounded-xl overflow-hidden shadow-xl">

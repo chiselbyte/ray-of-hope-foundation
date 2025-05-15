@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import ContactHero from '@/components/contact/ContactHero';
 import ContactForm from '@/components/contact/ContactForm';
 import ContactInfo from '@/components/contact/ContactInfo';
+import DonationInfo from '@/components/contact/DonationInfo';
 import Map from '@/components/contact/Map';
 
 export const metadata: Metadata = {
@@ -26,11 +27,10 @@ export default function ContactPage() {
     <div className="flex flex-col items-center">
       <ContactHero />
       <div className="container mx-auto px-4 py-12 grid md:grid-cols-2 gap-8">
+        <DonationInfo />
         <ContactForm />
-        <div>
-          <ContactInfo />
-          <Map />
-        </div>
+        <ContactInfo />
+        <Map />
       </div>
     </div>
   );

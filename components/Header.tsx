@@ -27,7 +27,7 @@ const Header = () => {
             <NavLink href="/about">About Us</NavLink>
             <NavLink href="/testimonials">Testimonials</NavLink>
             <NavLink href="/gallery">Gallery</NavLink>
-            <NavLink href="/videos">Videos</NavLink>
+            {/* <NavLink href="/videos">Videos</NavLink> */}
             <NavLink href="/contact">Contact</NavLink>
           </nav>
           
@@ -49,7 +49,7 @@ const Header = () => {
           <MobileNavLink href="/about" onClick={toggleMenu}>About Us</MobileNavLink>
           <MobileNavLink href="/testimonials" onClick={toggleMenu}>Testimonials</MobileNavLink>
           <MobileNavLink href="/gallery" onClick={toggleMenu}>Gallery</MobileNavLink>
-          <MobileNavLink href="/videos" onClick={toggleMenu}>Videos</MobileNavLink>
+          {/* <MobileNavLink href="/videos" onClick={toggleMenu}>Videos</MobileNavLink> */}
           <MobileNavLink href="/contact" onClick={toggleMenu}>Contact</MobileNavLink>
         </div>
       </div>
